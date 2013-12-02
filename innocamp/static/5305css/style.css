@@ -175,7 +175,7 @@ h3 {
 }
 
 h4 {
-	margin:40;
+	margin:0;
 	padding:30px 0 15px;
 	text-transform:none;
 	text-align:center;
@@ -183,7 +183,7 @@ h4 {
 	font-weight:300;
 	font-size:24px;
 	font-style:normal;
-	line-height:24px;
+	line-height:80px;
 	color:#fff;
 }
 
@@ -218,6 +218,7 @@ img.icon_img {
 	box-shadow:0 0 60px rgba(0,0,0, 0.7) inset;
 }
 
+
 #slide1{
 	background-image:url(../5305images/slide1_bg.jpg);
 	background-size: cover !important;
@@ -229,6 +230,7 @@ img.icon_img {
 	position:relative;
 	z-index:20;
 	text-align:center;	
+	line-height: 100px;
 }
 
 #slide1 h1 {
@@ -241,7 +243,7 @@ img.icon_img {
 	text-transform:uppercase;
 	font-family: 'WenQuanYi Micro Hei', sans-serif;
 	font-size: 80px;
-	line-height: 100px;
+	line-height: 000px;
 	color:#fff;
 	font-weight:300;
 }
@@ -251,8 +253,8 @@ img.icon_img {
 	text-align:center;
 	text-transform:uppercase;
 	font-family: 'WenQuanYi Micro Hei', sans-serif;
-	font-size: 80px;
-	line-height: 100px;
+	font-size: 60px;
+	line-height: 00px;
 	color:#fff;
 	font-weight:800;
 }
@@ -263,7 +265,7 @@ img.icon_img {
 	font-family: 'WenQuanYi Micro Hei', sans-serif;
 	font-weight:800;
 	font-size:38px;
-	line-height:47px;
+	line-height:0px;
 	color:#fff;
 }
 .left_bord,
@@ -272,7 +274,7 @@ img.icon_img {
 	margin-bottom:11px;
 	background:#cecece;
 	height:1px;
-	width:286px;
+	width:100px;
 }
 
 
