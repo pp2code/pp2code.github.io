@@ -6143,6 +6143,12 @@ a.badge:focus {
   line-height: 30px;
 }
 
+.hero-unit p {
+  line-height: 30px;
+  color: #0000aa;
+}
+
+
 .pull-right {
   float: right;
 }
