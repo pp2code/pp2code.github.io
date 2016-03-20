@@ -1780,11 +1780,12 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
 .popular-courses .course-item .down-content h6 {
   padding-top: 6px;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  color: #a8a8a8;
+  font-size: 15px;
+  color: #000000;
   font-weight: 300;
   letter-spacing: 0.2px;
-  margin-left: 70px;
+  margin-left: 20px;
+  margin-bottom: -9px;
 }
 .popular-courses .course-item .down-content .price-red {
   float: right;
@@ -1809,7 +1810,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #a12c2f;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -1836,7 +1837,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #f5a425;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -2002,7 +2003,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #a12c2f;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -2029,7 +2030,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #f5a425;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -2138,7 +2139,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #a12c2f;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -2165,7 +2166,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #f5a425;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
@@ -2240,7 +2241,7 @@ section.gallery-four .item .thumb-holder:hover .hover-content {
   height: 30px;
   line-height: 0;
   border: 16px solid #a12c2f;
-  border-left: 1.5em solid transparent;
+  border-left: 0.5em solid transparent;
   left: 0;
   top: 0;
 }
