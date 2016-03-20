@@ -642,7 +642,7 @@ footer .footer-widget .featured-links ul li:before {
   color: #f5a425;
 }
 footer .footer-widget .featured-links ul:last-child {
-  margin-left: 45px;
+  //margin-left: 45px;
 }
 @media (max-width: 991px) {
   footer .footer-widget .university-address {
@@ -3055,7 +3055,7 @@ section.single-teacher .single-teacher-item .description ul li:last-child {
   margin-bottom: 20px;
 }
 .single-event .event-item .down-content p {
-  margin-bottom: 45px;
+  margin-bottom: 15px;
 }
 .single-event .event-item .accordions h4 {
   font-size: 13px;
