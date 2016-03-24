@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<title>AKAEDU - Education HTML Theme</title>
+	<title>AKAEDU - Professional Education Service Provider</title>
 
 
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -47,7 +47,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<h1>Contact Us</h1>
-								<span>Salvia next level crucifix pickled heirloom synth</span>
+								<span></span>
 								<div class="page-list">
 									<ul>
 										<li class="active"><a href="index.html">Home</a></li>
@@ -68,17 +68,17 @@
 									<div class="contact-item">
 										<i class="fa fa-map-marker"></i>
 										<h4>Address Info</h4>
-										<p>Bloomfield Way Stockton, Springs ME 04981</p>
+										<p>1059 E Meadow Cir #144, Palo Alto, CA 94303</p>
 									</div>
 									<div class="contact-item">
 										<i class="fa fa-envelope-o"></i>
 										<h4>Email Info</h4>
-										<p>educa@university.com</p>
+										<p>hello@akaedu.us</p>
 									</div>
 									<div class="contact-item last-contact">
 										<i class="fa fa-phone"></i>
 										<h4>Phone Number</h4>
-										<p>+1 (23) 207 0567 2120</p>
+										<p>+1 650 417 8130</p>
 									</div>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 					</div>
 				</section>
 
-				<div id="call-to-action">
+				<!-- <div id="call-to-action">
 					<div class="container">
 						<div class="row">
 							<p>Young people have been 'mis-sold' <em>path to success</em>, business leaders warn.</p>
@@ -135,7 +135,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<div id="footer"></div>
 
@@ -207,20 +207,27 @@
 	<script type="text/javascript" src="assets/js/plugins.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
-	<!-- Google Map Init-->
+ 	<!-- Google Map Init-->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
       function initialize() {
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
-          scrollwheel: false,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
+
+	      var myLatLng = {lat: 37.4237039, lng: -122.169742};
+
+				var map = new google.maps.Map(document.getElementById('map'), {
+			    zoom: 12,
+			    center: myLatLng
+			  });
+
+			  var marker = new google.maps.Marker({
+			    position: myLatLng,
+			    map: map,
+			    title: 'Hello World!'
+			  });      
+
       }
       google.maps.event.addDomListener(window, 'load', initialize);
+		  
     </script>
 
 <script>
